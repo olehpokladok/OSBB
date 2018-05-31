@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.my-header {
+	padding: 10px;
+	margin: 0;
+    width: 100%;
+    height: 80px;
+    background: #e8583d;
+
+}
+
+
+
+.logo {
+	
+	    padding-left: 100px;
+}
+
+.logo h2 {
+
+    font-size: 32px;
+    color: white;
+    margin-top: 10px;
+}
+.my-log-out{
+	float: right;
+	    margin-top: 7px;
+    margin-right: 20px;
+    
+    
+}
+nav {
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(158, 158, 158, 0.25);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(158, 158, 158, 0.25);
+    box-shadow: 0px 3px 10px 0px rgba(158, 158, 158, 0.25);
+}
+
+nav ul {
+
+    display: -webkit-flex;
+    display: flex;
+    background: white;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+nav a {
+    padding: 10px 30px;
+    margin: 10px 0px;
+    display: block;
+    color: #a0a0a0;
+    border-right: 1px solid #e4e4e4;
+    text-decoration: none;
+    background: white;
+    font-family: sans-serif;
+}
+
+nav a.first_nav {
+    border-left: 1px solid #e4e4e4;
+
+}
+
+nav a:hover {
+
+    color: #e8583d;
+}
+.greenbtn {
+   /* margin-right: 5%;*/
+        float: right;
+    padding: 10px 20px;
+    background: #68c60e;
+    border: 1px solid #69b020;
+    border-radius: 3px;
+    color: #b8ed85;
+    
+}
